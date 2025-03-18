@@ -16,28 +16,39 @@ html {
     color: #fff;
 }
 ::-webkit-scrollbar { display: none; }
-
+.btn {
+  border: none; 
+  color: white; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: inline-flex;
+}
+.btn i {
+  margin-right: 5px;
+}
+.primary {background-color: #007bff;} 
+.primary:hover {background: #0b7dda;}
+.secondary {background-color: #e7e7e7; color: black;} 
+.secondary:hover {background: #ddd;}
+.success {background-color: #04AA6D;} 
+.success:hover {background-color: #46a049;}
+.warning {background-color: #ff9800;} 
+.warning:hover {background: #e68a00;}
+.danger {background-color: #f44336;} 
+.danger:hover {background: #da190b;}
 </style>
 <head>
-<title>Cámaras CIO Esval - Adv</title>
+<title>Accesos Rápidos</title>
 </head>
 <body>
 <div>
 <div>
-<a HREF="#"><iframe src="https://ucncamcq.ucn.cl:8181/31334bb8-688e-4b31-9024-503a2e88a7b3.html" width="220" height="130" frameborder="0" allowfullscreen="true" scrolling="no"></iframe></a>
-Coquimbo<br>
-</div>
-<div>
-Valparaíso<br>
-<iframe width="220" height="130" src="https://www.youtube.com/embed/2op3_aYG6ho?si=uP9S5aF_yZI3xTmP&autoplay=1&mute=1;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<div>
-El Quisco<br>
-<iframe width="220" height="130" src="https://www.youtube.com/embed/D7jowWLvi88?si=dLUjeXlJgJvSi26QQ&autoplay=1&mute=1;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-<div>
-San Antonio<br>
-<iframe width="220" height="130" src="https://www.youtube.com/embed/oFtn_pHIIYk?si=LczfHebKf-tRKorY&autoplay=1&mute=1;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<button class="btn primary"><i class="fas fa-exclamation-circle"></i> Primary</button>
+<button class="btn secondary"><i class="fas fa-exclamation-circle"></i> Secondary</button>
+<button class="btn success"><i class="fas fa-check-circle"></i> Success</button>
+<button class="btn warning"><i class="fas fa-exclamation-triangle"></i> Warning</button>
+<button class="btn danger"><i class="fas fa-times-circle"></i> Danger</button>
 </div>
 </body>
 </html>
